@@ -16,7 +16,7 @@ Images Folder
 
 Find the <section> for the catagory (Gear, Hardtail Mountain Bikes)
 
-Copy a <div class="category-card"> block
+Copy a <divclass="category-card"> block
 
 Change img src to image of product and updatte <h3> title and description <p>
 
@@ -30,4 +30,5 @@ Then object-fit: contain; to make sure the product is not cut off or stretched i
 
 From what I was told the Cart icon in the top right in the navbar calls a function created in the shop.js 
 Every page NEEDS to have <div id="checkoutModal"> and the bottom of the html but before the </body> 
+
 Also making sure every page has the connection <script src="shop.js" defer></script>
