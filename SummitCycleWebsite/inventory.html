@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summit Cycles | Mountain Bike Inventory</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inventory.css">
+    
+    <script src="shop.js" defer></script>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Summit Cycles Logo">
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="services.html">Services & Repairs</a></li>
+                <li><a href="trails.html">Local Trails</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="btn-primary">Contact Us</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="javascript:void(0)" onclick="openCheckout()"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Mountain Bike Inventory</h1>
+            <p>Specializing in Hardtail, Full Suspension, and Electric Mountain Bikes.</p>
+        </div>
+    </header>
+
+    <main class="shop-content section-padding">
+        <div class="container">
+            
+            <section id="hardtail">
+                <h2 class="section-title">Hardtail Mountain Bikes</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="images/highhardtail.jpg" alt="Highlander 8.0">
+                        <div class="category-info">
+                            <h3>Highlander 8.0</h3>
+                            <p>Hardtail, Aluminum Frame, Shimano Deore</p>
+                            <a href="contact.html" class="btn-primary">Inquire About Stock</a>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/mtb_entry.jpg" alt="Pioneer SE">
+                        <div class="category-info">
+                            <h3>Pioneer SE</h3>
+                            <p>Hardtail, Beginner Trail Ready, 29er</p>
+                            <a href="contact.html" class="btn-primary">View In-Store</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="fullsuspension" class="section-padding">
+                <h2 class="section-title">Full Suspension</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="images/full_suspension_thumb.jpg" alt="Trail Master Enduro">
+                        <div class="category-info">
+                            <h3>Trail Master Enduro</h3>
+                            <p>160mm Travel, Carbon Fiber</p>
+                            <a href="contact.html" class="btn-primary">Message About Stock</a>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/bike_fs_trail.jpg" alt="Ascender 5.5">
+                        <div class="category-info">
+                            <h3>Ascender 5.5</h3>
+                            <p>130mm Travel, Alloy Frame</p>
+                            <a href="contact.html" class="btn-primary">View In-Store</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="electric" class="section-padding">
+                <h2 class="section-title">Electric Mountain Bikes (E-MTB)</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="images/e_bike_thumb.jpg" alt="Voltage Runner">
+                        <div class="category-info">
+                            <h3>Voltage Runner</h3>
+                            <p>250W Motor, 625Wh Battery</p>
+                            <a href="contact.html" class="btn-primary">Inquire About Stock</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gear" class="section-padding">
+                <h2 class="section-title">Essential Gear & Accessories</h2>
+                <div class="category-grid">
+                    
+                    <div class="category-card gear-card">
+                        <img src="images/helmet.jpg" alt="Mountain Bike Helmet">
+                        <div class="category-info">
+                            <h3>Trail Protection Helmet</h3>
+                            <p>Lightweight and gives protection designed for rugged Colorado terrain. (Black)</p>
+                            <a href="javascript:void(0)" onclick="openCheckout()" class="btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="category-card gear-card">
+                        <img src="images/gloves.jpg" alt="Mountain Bike Gloves">
+                        <div class="category-info">
+                            <h3>Pro-Grip Gloves</h3>
+                            <p>Hand protection with enhanced palm padding for long downhill rides. (Black)</p>
+                            <a href="javascript:void(0)" onclick="openCheckout()" class="btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="category-card gear-card">
+                        <img src="images/pump.jpg" alt="Mountain Bike Pump">
+                        <div class="category-info">
+                            <h3>High-Pressure Trail Pump</h3>
+                            <p>Compact and durable pump designed for  mountain bike tires. (Blue) </p>
+                            <a href="javascript:void(0)" onclick="openCheckout()" class="btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="category-card gear-card">
+                        <img src="images/pedals.jpg" alt="Mountain Bike Pedals">
+                        <div class="category-info">
+                            <h3>Apex Flat Pedals</h3>
+                            <p>Wide platform pedals (Pink).</p>
+                            <a href="javascript:void(0)" onclick="openCheckout()" class="btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="category-card gear-card">
+                        <img src="images/bikegrips.jpg" alt="Mountain Bike Grips">
+                        <div class="category-info">
+                            <h3>Mountain Bike Grips</h3>
+                            <p>Compound rubber for comfort (Black)</p>
+                            <a href="javascript:void(0)" onclick="openCheckout()" class="btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Summit Cycles</h3>
+                <p>Supporting and growing the local riding community in Colorado.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="services.html">Service Center</a></li>
+                    <li><a href="trails.html">Local Trail Maps</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Trailhead Blvd, Denver, CO 80204</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                
+                <div class="social-links">
+                    <div class="social-item">
+                        <i class="fab fa-facebook"></i>
+                        <span>summitcycles.co</span>
+                    </div>
+                    <div class="social-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>summitcycles.co</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Summit Cycles. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeCheckout()">&times;</span>
+            <div class="checkout-header">
+                <h2>Your Cart</h2>
+            </div>
+            <div class="order-summary">
+                <p><strong>Item:</strong> Summit Cycles Gear</p>
+                <p>Complete your purchase to support local trails.</p>
+            </div>
+            <form class="checkout-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Card Number" required>
+                <button type="submit" class="btn-large" style="width: 100%; border:none;">Pay Now</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
