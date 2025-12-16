@@ -7,7 +7,7 @@ HTML Files: index.html, inventory.html, services.html, trails.html, about.html, 
 
 CSS Files: style.css (main styles) and any specific ones like trails.css or about.css.
 
-### I can't say I understand the javascript that well. I had help from a computer programmer who helped me get the button working (Also is not too important as it is a supposedly basic checkout system so if you click add to cart or the cart in the top right it pops up a checkout screen)
+I can't say I understand the javascript that well. I had help from a computer programmer who helped me get the button working (Also is not too important as it is a supposedly basic checkout system so if you click add to cart or the cart in the top right it pops up a checkout screen)
 JS File: shop.js
 
 Images Folder
@@ -32,4 +32,5 @@ From what I was told the Cart icon in the top right in the navbar calls a functi
 Every page NEEDS to have <div id="checkoutModal"> and the bottom of the html but before the </body> 
 
 Also making sure every page has the connection <script src="shop.js" defer></script>
+
 
