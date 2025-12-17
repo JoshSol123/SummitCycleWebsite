@@ -14,7 +14,7 @@ Images Folder
 
 # How to add to inventory 
 
-Find the <section> for the catagory (Gear, Hardtail Mountain Bikes)
+Find the < section> for the catagory (Gear, Hardtail Mountain Bikes)
 
 Copy a <divclass="category-card"> block
 
@@ -32,5 +32,6 @@ From what I was told the Cart icon in the top right in the navbar calls a functi
 Every page NEEDS to have <div id="checkoutModal"> and the bottom of the html but before the </body> 
 
 Also making sure every page has the connection <script src="shop.js" defer></script>
+
 
 
